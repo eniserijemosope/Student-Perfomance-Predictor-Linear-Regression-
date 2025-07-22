@@ -31,12 +31,12 @@ This project analyzes student performance to predict scores in three academic su
 
 *NB: All plots are included in the `images/` folder.*
 
-## ⚙️ Data Preprocessing
+## Data Preprocessing
 
 * **Features**: All categorical variables encoded using `pd.get_dummies()` with `drop_first=True`.
 * **Targets**: Grouped as a single DataFrame with 3 target columns.
 
-## 🤖 Model Used: Linear Regression
+## Model Used: Linear Regression
 
 We trained a single `LinearRegression()` model on all three scores simultaneously (multi-target regression).
 
