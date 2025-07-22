@@ -6,15 +6,15 @@ This project analyzes student performance to predict scores in three academic su
 
 ##  Dataset Used
 
-* **File**: `StudentsPerformance.csv`
+* **File**: StudentsPerformance.csv
 * **Records**: 1000 students
 * **Features**:
 
-  * Categorical: `gender`, `race/ethnicity`, `parental level of education`, `lunch`, `test preparation course`
-  * Targets: `math score`, `reading score`, `writing score`
+  * Categorical: gender, race/ethnicity, parental level of education, lunch, test preparation course
+  * Targets: math score, reading score, writing score
 
 
-## 🔬 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 ###  Data Inspection
 
@@ -29,16 +29,16 @@ This project analyzes student performance to predict scores in three academic su
 * **Heatmap**: Correlation between math, reading, and writing scores
 * **Countplots**: Distribution of each categorical feature
 
-*NB: All plots are included in the `images/` folder.*
+*NB: All plots are included in the "images/" folder.*
 
 ## Data Preprocessing
 
-* **Features**: All categorical variables encoded using `pd.get_dummies()` with `drop_first=True`.
+* **Features**: All categorical variables encoded using pd.get_dummies().
 * **Targets**: Grouped as a single DataFrame with 3 target columns.
 
 ## Model Used: Linear Regression
 
-We trained a single `LinearRegression()` model on all three scores simultaneously (multi-target regression).
+We trained a single LinearRegression() model on all three scores simultaneously (multi-target regression).
 
 
 ##  Model Evaluation
@@ -79,7 +79,7 @@ Visualizing how close the predictions are to the real scores:
 >
 > * Actual values on the x-axis
 > * Predicted values on the y-axis
-> * Red dashed line `y = x` as a reference for perfect prediction
+> * Red dashed line "y = x" as a reference for perfect prediction
 
 ---
 
