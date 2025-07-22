@@ -65,39 +65,34 @@ Visualizing how close the predictions are to the real scores:
 
 ### 📘 Math Score
 
-📷 ![Math Actual vs Predicted](images/math_pred_vs_actual.png)
+<img width="1002" height="622" alt="math" src="https://github.com/user-attachments/assets/5e1fc6d5-f3c1-42d6-8e58-120f9f2cf649" />
 
 ### 📗 Reading Score
 
-📷 ![Reading Actual vs Predicted](images/reading_pred_vs_actual.png)
+<img width="1002" height="622" alt="reading" src="https://github.com/user-attachments/assets/f0404591-0060-45b1-bf12-d796f67bba58" />
 
 ### 📙 Writing Score
+<img width="1002" height="622" alt="writing" src="https://github.com/user-attachments/assets/12724095-c67e-429b-9ed3-9bdb51396b8f" />
 
-📷 ![Writing Actual vs Predicted](images/writing_pred_vs_actual.png)
 
-> Each plot shows:
->
-> * Actual values on the x-axis
-> * Predicted values on the y-axis
-> * Red dashed line "y = x" as a reference for perfect prediction
+### Each plot shows:
+ Actual values on the x-axis
+ Predicted values on the y-axis
+ (Red dashed line "y = x" as a reference for perfect prediction)
 
----
 
 ## Limitations
 
-* Linear regression assumes a linear relationship — it may miss complex interactions.
+* Linear regression assumes a linear relationship meaning it may miss complex interactions.
 * Model may predict scores above 100 or below 0 (non-realistic values).
 * Categorical data may be better handled using tree-based models.
 
----
 
 ## Next Steps
 
 * Compare results using **Random Forest** or **Gradient Boosting**.
 * Add **cross-validation** for more robust accuracy checks.
 * Explore **feature importance** to interpret what influences scores most.
-
----
 
 ## Conclusion
 
