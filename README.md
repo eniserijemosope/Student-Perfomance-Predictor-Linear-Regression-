@@ -88,7 +88,7 @@ Visualizing how close the predictions are to the real scores:
 * Categorical data may be better handled using tree-based models.
 
 
-## Next Steps
+## WHat I can do for a better prediction??
 
 * Compare results using **Random Forest** or **Gradient Boosting**.
 * Add **cross-validation** for more robust accuracy checks.
@@ -96,5 +96,5 @@ Visualizing how close the predictions are to the real scores:
 
 ## Conclusion
 
-Despite its simplicity, **Linear Regression** gives a reasonable approximation of student performance. This project demonstrates the core ML workflow and is perfect for building confidence with regression problems.
+**Linear Regression** gives a reasonable approximation of student performance. This project demonstrates the core ML workflow and is perfect for building confidence with regression problems but it would be better used when the target feauture is just one thing.
 
